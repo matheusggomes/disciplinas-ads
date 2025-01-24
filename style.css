@@ -45,7 +45,26 @@ section {
     font-size: 20pt;
 }
 
-p:hover{
+section p:hover{
     font-weight: bold;
     cursor: pointer;
+}
+
+footer {
+    background-color: #333; /* Fundo escuro */
+    color: white; /* Texto claro */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    /*margin-top: 20px; /* Espaço acima do rodapé */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+footer a {
+    color: #d4d4d4; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+footer a:hover {
+    color: white; /* Cor ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado */
 }
