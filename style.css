@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #d4d4d4;
 }
 
 nav {
@@ -12,6 +13,7 @@ nav {
     top: 0;
     display: flex; /* Usando flexbox para o layout do menu */
     justify-content: center; /* Centraliza os itens do menu horizontalmente */
+    font-size: 2vw; /* O tamanho da fonte será 2% da largura da tela (viewport width) */
 }
 
 nav a {
@@ -31,6 +33,7 @@ section {
     height: 100vh; /* Cada seção ocupa 100% da altura da tela */
     text-align: center;
     background-color: #d4d4d4;
+    font-size: 2vw;
 }
 
 #home {
@@ -39,10 +42,10 @@ section {
     /* Outras propriedades de estilo para a seção "home" */
 }
 
-.teste{
+.titulo{
     /* background-color: red; */
     margin-top: 200px;
-    font-size: 20pt;
+    font-size: 2.1vw; /* 2.1% da largura da tela */
 }
 
 section p:hover{
@@ -55,7 +58,7 @@ footer {
     color: white; /* Texto claro */
     text-align: center; /* Centraliza o texto */
     padding: 20px; /* Espaçamento interno */
-    /*margin-top: 20px; /* Espaço acima do rodapé */
+    margin-top: 60px; /* Espaço acima do rodapé */
     font-size: 14px; /* Tamanho da fonte */
 }
 
