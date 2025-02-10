@@ -6,35 +6,35 @@
     <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o layout responsivo -->
 
-    <title>Disciplinas ADS</title>  <!-- Título da página -->
+    <title>Disciplinas ADS</title> <!-- Título da página -->
     <link rel="stylesheet" href="style.css"> <!-- Link para CSS externo -->
 </head>
 
 <body>
 
-    <header>  <!-- Cria uma barra de navegação -->
+    <header> <!-- Cria uma barra de navegação -->
 
         <!-- Botão de menu para telas pequenas -->
         <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
 
         <!-- Container dos links do menu -->
-         <nav class="menu-links">
-            <a href="#home">Home</a>  <!-- Link para a seção inicial com o id 'home' -->
+        <nav class="menu-links">
+            <a href="#home">Home</a> <!-- Link para a seção inicial com o id 'home' -->
             <a href="#primeiro-semestre">1º Semestre</a> <!-- Link para a seção do 1º semestre -->
             <a href="#segundo-semestre">2º Semestre</a> <!-- Link para a seção do 2º semestre -->
             <a href="#terceiro-semestre">3º Semestre</a> <!-- Link para a seção do 3º semestre -->
             <a href="#quarto-semestre">4º Semestre</a> <!-- Link para a seção do 4º semestre -->
-         </nav>
+        </nav>
     </header>
-    
-    <section id="home">  <!-- Seção inicial identificada pelo id 'home' -->
+
+    <section id="home"> <!-- Seção inicial identificada pelo id 'home' -->
         <div class="titulo">
             <h1>Análise e Desenvolvimento de Sistemas - Unicsul - 2023/2024</h1>
             <h4>Disciplinas que cursei durante a faculdade de Análise e Desenvolvimento de Sistemas</h4>
         </div>
-        
+
     </section>
-    
+
     <section id="primeiro-semestre"> <!-- Seção sobre o 1º semestre, identificada pelo id correspondente -->
         <h2>1º Semestre (2023)</h2>
         <p>MODELAGEM DE NEGÓCIOS E REQUISITOS</p>
@@ -44,7 +44,7 @@
         <p>EMPREENDEDORISMO (EAD)</p>
         <p>SOCIEDADE, IDENTIDADES E TERRITÓRIOS (EAD)</p>
     </section>
-    
+
     <section id="segundo-semestre"> <!-- Seção sobre o 2º semestre, identificada pelo id correspondente -->
         <h2>2º Semestre (2023)</h2>
         <p>ENGENHARIA DE SOFTWARE</p>
@@ -56,7 +56,7 @@
         <p>MATEMÁTICA APLICADA (EAD)</p>
         <p>ITINERÁRIO EXTENSIONISTA I (EAD)</p>
     </section>
-    
+
     <section id="terceiro-semestre"> <!-- Seção sobre o 3º semestre, identificada pelo id correspondente -->
         <h2>3º Semestre (2024)</h2>
         <p>BANCO DE DADOS</p>
@@ -68,7 +68,7 @@
         <p>SISTEMAS CLIENTE/SERVIDOR (EAD)</p>
         <p>ITINERÁRIO EXTENSIONISTA II</p>
     </section>
-    
+
     <section id="quarto-semestre"> <!-- Seção sobre o 4º semestre, identificada pelo id correspondente -->
         <h2>4º Semestre (2024)</h2>
         <p>REDES DE COMPUTADORES</p>
@@ -86,21 +86,13 @@
     <footer>
         <p>&copy; 2025 - Matheus Gonçalves Gomes</p>
         <p>
-            <a href="https://www.linkedin.com/in/matheusggomes/" target="_blank">LinkedIn</a> | 
+            <a href="https://www.linkedin.com/in/matheusggomes/" target="_blank">LinkedIn</a> |
             <a href="https://github.com/matheusggomes" target="_blank">GitHub</a>
         </p>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            console.log("Clique no menu detectado"); // para verificar no console
-            var menuLinks = document.querySelector(".menu-links");
-            menuLinks.classList.toggle("active");
-            console.log("Classes do menu:", menuLinks.classList); // para ver se a classe 'active' foi adicionada
-        }
-    </script>
-    
-    
+    <script src="script.js"></script>
+
 </body>
 
 </html>
