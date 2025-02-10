@@ -12,13 +12,20 @@
 
 <body>
 
-    <nav>  <!-- Cria uma barra de navegação -->
-        <a href="#home">Home</a>  <!-- Link para a seção inicial com o id 'home' -->
-        <a href="#primeiro-semestre">1º Semestre</a> <!-- Link para a seção do 1º semestre -->
-        <a href="#segundo-semestre">2º Semestre</a> <!-- Link para a seção do 2º semestre -->
-        <a href="#terceiro-semestre">3º Semestre</a> <!-- Link para a seção do 3º semestre -->
-        <a href="#quarto-semestre">4º Semestre</a> <!-- Link para a seção do 4º semestre -->
-    </nav>
+    <header>  <!-- Cria uma barra de navegação -->
+
+        <!-- Botão de menu para telas pequenas -->
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+
+        <!-- Container dos links do menu -->
+         <nav class="menu-links">
+            <a href="#home">Home</a>  <!-- Link para a seção inicial com o id 'home' -->
+            <a href="#primeiro-semestre">1º Semestre</a> <!-- Link para a seção do 1º semestre -->
+            <a href="#segundo-semestre">2º Semestre</a> <!-- Link para a seção do 2º semestre -->
+            <a href="#terceiro-semestre">3º Semestre</a> <!-- Link para a seção do 3º semestre -->
+            <a href="#quarto-semestre">4º Semestre</a> <!-- Link para a seção do 4º semestre -->
+         </nav>
+    </header>
     
     <section id="home">  <!-- Seção inicial identificada pelo id 'home' -->
         <div class="titulo">
@@ -83,6 +90,16 @@
             <a href="https://github.com/matheusggomes" target="_blank">GitHub</a>
         </p>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            console.log("Clique no menu detectado"); // para verificar no console
+            var menuLinks = document.querySelector(".menu-links");
+            menuLinks.classList.toggle("active");
+            console.log("Classes do menu:", menuLinks.classList); // para ver se a classe 'active' foi adicionada
+        }
+    </script>
+    
     
 </body>
 
