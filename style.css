@@ -13,7 +13,7 @@ nav {
     top: 0;
     display: flex; /* Usando flexbox para o layout do menu */
     justify-content: center; /* Centraliza os itens do menu horizontalmente */
-    font-size: 2vw; /* O tamanho da fonte será 2% da largura da tela (viewport width) */
+    font-size: clamp(22px, 1vw, 36px); /* O tamanho da fonte será 2% da largura da tela (viewport width) */
 }
 
 nav a {
