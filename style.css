@@ -14,16 +14,17 @@ header {
     display: flex; /* Usando flexbox para o layout do menu */
     justify-content: center; /* Centraliza os itens do menu horizontalmente */
     align-items: center;
+    height: 47px;
 }
 
-header a {
+nav a {
     color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
 
-header a:hover {
+nav a:hover {
     background-color: #d4d4d4;
     color: black;
 }
@@ -84,6 +85,8 @@ footer a:hover {
     font-size: 24px;
     color: white;
     cursor: pointer;
+    position: absolute;
+    right: 20px;
 }
 
 /* Media query para telas menores */
@@ -114,4 +117,19 @@ footer a:hover {
     .menu-links.active {
         display: flex;
     }
+}
+
+/* Nome do menu fixo no canto esquerdo */
+.nome-menu {
+    position: absolute;
+    left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    /*font-style: italic;*/
+    cursor: pointer;
+}
+
+.nome-menu a{
+    color: #d4d4d4;
+    text-decoration: none;
 }
