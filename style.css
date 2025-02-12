@@ -51,7 +51,12 @@ section {
     font-size: 16pt;
 }
 
-section p:hover{
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+section a:hover{
     font-weight: bold;
     cursor: pointer;
 }
