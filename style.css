@@ -45,12 +45,9 @@ section {
 #home {
     background-image: url('img/fundo-home.jpg');
     background-size: cover;
-    /* Outras propriedades de estilo para a seção "home" */
 }
 
 .titulo{
-    /* background-color: red; */
-    /*margin-top: 200px;*/
     font-size: 16pt;
 }
 
@@ -139,10 +136,6 @@ footer a:hover {
     text-decoration: none;
 }
 
-#quarto-semestre{
-    padding-top: 50px; /* Para compensar a altura do menu fixo */
-}
-
-p, h1, h2, h3, h4, h5, h6 {
+p, a, h1, h2, h3, h4, h5, h6 {
     caret-color: transparent;
 }
