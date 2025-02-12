@@ -3,8 +3,8 @@
 Este repositório contém o site que apresenta as disciplinas que cursei durante a graduação em **Análise e Desenvolvimento de Sistemas**.
 
 ## 🌐 Acesse o Site  
-O projeto está disponível no GitHub Pages:  
-<a href="https://matheusggomes.github.io/disciplinas-ads" target="_blank">matheusggomes.github.io/disciplinas-ads</a>
+O projeto está disponível no GitHub Pages:
+[matheusggomes.github.io/disciplinas-ads](https://matheusggomes.github.io/disciplinas-ads)  
 
 ## 🚀 Tecnologias Utilizadas
 
