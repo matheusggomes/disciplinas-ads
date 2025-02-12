@@ -14,13 +14,13 @@ header {
     display: flex; /* Usando flexbox para o layout do menu */
     justify-content: center; /* Centraliza os itens do menu horizontalmente */
     align-items: center;
-    height: 47px;
+    height: 50px;
 }
 
 nav a {
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 16px 20px;
     text-decoration: none;
 }
 
@@ -30,11 +30,16 @@ nav a:hover {
 }
 
 section {
-    padding-top: 50px; /* Para compensar a altura do menu fixo */
+    padding-left: 20px; /* Adiciona um pequeno espaçamento lateral */
+    padding-right: 20px;
+    padding-bottom: 50px;
     height: 100vh; /* Cada seção ocupa 100% da altura da tela */
     text-align: center;
     background-color: #d4d4d4;
-
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Mantém os elementos empilhados na vertical */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
 }
 
 #home {
@@ -45,8 +50,8 @@ section {
 
 .titulo{
     /* background-color: red; */
-    margin-top: 200px;
-    font-size: 20pt;
+    /*margin-top: 200px;*/
+    font-size: 16pt;
 }
 
 section p:hover{
@@ -132,4 +137,12 @@ footer a:hover {
 .nome-menu a{
     color: #d4d4d4;
     text-decoration: none;
+}
+
+#quarto-semestre{
+    padding-top: 50px; /* Para compensar a altura do menu fixo */
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    caret-color: transparent;
 }
