@@ -4,12 +4,13 @@ Este repositório contém o site que apresenta as disciplinas que cursei durante
 
 ## 🌐 Acesse o Site  
 O projeto está disponível no GitHub Pages:  
-[https://matheusggomes.github.io/disciplinas-ads](https://matheusggomes.github.io/disciplinas-ads)  
+<a href="https://matheusggomes.github.io/disciplinas-ads" target="_blank">matheusggomes.github.io/disciplinas-ads</a>
 
 ## 🚀 Tecnologias Utilizadas
 
 - **HTML5**: Estrutura e organização do conteúdo. 
-- **CSS3**: Para estilização.
+- **CSS3**: Para estilização e layout responsivo.
+- **JavaScript**: Para adicionar interatividade do menu de navegação.
 - **GitHub Pages**: Para hospedar e compartilhar o projeto.
 
 ## 🚧 Em Desenvolvimento  
