@@ -33,7 +33,7 @@ section {
     padding-left: 20px; /* Adiciona um pequeno espaçamento lateral */
     padding-right: 20px;
     padding-bottom: 50px;
-    height: 100vh; /* Cada seção ocupa 100% da altura da tela */
+    min-height: 100vh; /* Cada seção ocupa 100% da altura da tela */
     text-align: center;
     background-color: #d4d4d4;
     display: flex; /* Ativa o Flexbox */
@@ -66,7 +66,7 @@ footer {
     color: white; /* Texto claro */
     text-align: center; /* Centraliza o texto */
     padding: 20px; /* Espaçamento interno */
-    margin-top: 20px; /* Espaço acima do rodapé */
+    margin-top: 50px; /* Espaço acima do rodapé */
     font-size: 14px; /* Tamanho da fonte */
 }
 
@@ -143,4 +143,35 @@ footer a:hover {
 
 p, a, h1, h2, h3, h4, h5, h6 {
     caret-color: transparent;
+}
+
+
+/*css disciplinas*/
+.conteudo-disciplina {
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.conteudo-disciplina h1 {
+    text-align: center;
+    font-size: 18pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.conteudo-disciplina h2 {
+    text-align: justify;
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.conteudo-disciplina p {
+    text-align: justify;
+    font-size: 14pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
