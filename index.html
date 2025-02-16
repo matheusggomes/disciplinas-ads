@@ -1,5 +1,4 @@
 <!DOCTYPE html> <!-- Declara o tipo de documento como HTML5 -->
-
 <html lang="pt-br"> <!-- Define a linguagem do documento -->
 
 <head> <!-- Cabeçalho do documento -->
@@ -7,24 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o layout responsivo -->
 
     <title>Disciplinas ADS</title> <!-- Título da página -->
-    <link rel="stylesheet" href="style.css"> <!-- Link para CSS externo -->
-    <link rel="icon" type="image/png" href="img/favicon.png">
-
+    <link rel="stylesheet" href="style.css"> <!-- Importa o arquivo CSS externo -->
+    <link rel="icon" type="image/png" href="img/favicon.png"> <!-- Define um ícone (favicon) para a aba do navegador -->
 </head>
 
-<body>
-
-    <header>
-        <!-- Nome fixo no lado esquerdo -->
-        <div class="nome-menu">
+<body> <!-- Corpo do documento (contém todo o conteúdo visível na página) -->
+    <header> <!-- Cabeçalho da página -->
+        <div class="nome-menu"> <!-- Nome fixo no lado esquerdo -->
             <a href="https://matheusggomes.github.io/disciplinas-ads">Disciplinas ADS</a>
         </div>
 
-        <!-- Botão de menu para telas pequenas -->
-        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <div class="botao-menu" onclick="botaoMenu()"> <!-- Ícone do menu hambúrguer para telas pequenas -->
+            &#9776;
+        </div>
 
-        <!-- Container dos links do menu -->
-        <nav class="menu-links">
+        <nav class="menu-links"> <!-- Navegação do menu principal -->
             <a href="#home">Home</a> <!-- Link para a seção inicial com o id 'home' -->
             <a href="#primeiro-semestre">1º Semestre</a> <!-- Link para a seção do 1º semestre -->
             <a href="#segundo-semestre">2º Semestre</a> <!-- Link para a seção do 2º semestre -->
@@ -33,62 +29,64 @@
         </nav>
     </header>
 
-    <section id="home"> <!-- Seção inicial identificada pelo id 'home' -->
-        <div class="titulo">
-            <h1>Análise e Desenvolvimento de Sistemas - Unicsul - 2023/2024</h1>
-            <h4>Disciplinas que cursei durante a faculdade de Análise e Desenvolvimento de Sistemas</h4>
-        </div>
-    </section>
+    <main> <!-- Conteúdo principal da página -->
+        <section id="home"> <!-- Seção inicial identificada pelo id 'home' -->
+            <div class="titulo">
+                <h1>Análise e Desenvolvimento de Sistemas - Unicsul - 2023/2024</h1>
+                <h4>Disciplinas que cursei durante a faculdade de Análise e Desenvolvimento de Sistemas</h4>
+            </div>
+        </section>
+    
+        <section id="primeiro-semestre"> <!-- Seção do 1º semestre -->
+            <h2>1º Semestre (2023)</h2>
+            <a href="disciplinas/1-semestre/modelagem-de-negocios-e-requisitos.html">MODELAGEM DE NEGÓCIOS E REQUISITOS</a>
+            <p>APLICAÇÕES PARA INTERNET</p>
+            <p>PROGRAMAÇÃO DE COMPUTADORES</p>
+            <p>ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES</p>
+            <p>EMPREENDEDORISMO (EAD)</p>
+            <p>SOCIEDADE, IDENTIDADES E TERRITÓRIOS (EAD)</p>
+        </section>
+    
+        <section id="segundo-semestre"> <!-- Seção do 2º semestre -->
+            <h2>2º Semestre (2023)</h2>
+            <p>ENGENHARIA DE SOFTWARE</p>
+            <p>SISTEMAS OPERACIONAIS</p>
+            <p>PROGRAMAÇÃO WEB</p>
+            <p>TÉCNICAS DE DESENVOLVIMENTO DE ALGORITMOS</p>
+            <p>MODELAGEM DE DADOS (EAD)</p>
+            <p>QUALIDADE DE SOFTWARE (EAD)</p>
+            <p>MATEMÁTICA APLICADA (EAD)</p>
+            <p>ITINERÁRIO EXTENSIONISTA I (EAD)</p>
+        </section>
+    
+        <section id="terceiro-semestre"> <!-- Seção do 3º semestre -->
+            <h2>3º Semestre (2024)</h2>
+            <p>BANCO DE DADOS</p>
+            <p>TÓPICOS AVANÇADOS EM SISTEMAS DE INFORMAÇÃO I</p>
+            <p>ESTRUTURA DE DADOS I</p>
+            <p>ANÁLISE E PROJETO DE SISTEMAS I</p>
+            <p>PROGRAMAÇÃO ORIENTADA A OBJETOS</p>
+            <p>COMPUTAÇÃO EM NUVEM (EAD)</p>
+            <p>SISTEMAS CLIENTE/SERVIDOR (EAD)</p>
+            <p>ITINERÁRIO EXTENSIONISTA II</p>
+        </section>
+    
+        <section id="quarto-semestre"> <!-- Seção do 4º semestre -->
+            <h2>4º Semestre (2024)</h2>
+            <p>REDES DE COMPUTADORES</p>
+            <p>ANÁLISE E PROJETO DE SISTEMAS II</p>
+            <p>LABORATÓRIO DE BANCO DE DADOS AVANÇADO</p>
+            <p>PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS</p>
+            <p>TÓPICOS AVANÇADOS EM SISTEMAS DE INFORMAÇÃO II</p>
+            <p>COMPUTAÇÃO PARALELA E DISTRIBUÍDA (EAD)</p>
+            <p>BIG DATA (EAD)</p>
+            <p>LÍNGUA BRASILEIRA DE SINAIS (EAD)</p>
+            <p>ANÁLISE DE PROJETOS DE INVESTIMENTOS (EAD)</p>
+            <p>ITINERÁRIO EXTENSIONISTA III</p>
+        </section>
+    </main>
 
-    <section id="primeiro-semestre"> <!-- Seção sobre o 1º semestre, identificada pelo id correspondente -->
-        <h2>1º Semestre (2023)</h2>
-        <a href="disciplinas/1-semestre/modelagem-de-negocios-e-requisitos.html">MODELAGEM DE NEGÓCIOS E REQUISITOS</a>
-        <p>APLICAÇÕES PARA INTERNET</p>
-        <p>PROGRAMAÇÃO DE COMPUTADORES</p>
-        <p>ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES</p>
-        <p>EMPREENDEDORISMO (EAD)</p>
-        <p>SOCIEDADE, IDENTIDADES E TERRITÓRIOS (EAD)</p>
-    </section>
-
-    <section id="segundo-semestre"> <!-- Seção sobre o 2º semestre, identificada pelo id correspondente -->
-        <h2>2º Semestre (2023)</h2>
-        <p>ENGENHARIA DE SOFTWARE</p>
-        <p>SISTEMAS OPERACIONAIS</p>
-        <p>PROGRAMAÇÃO WEB</p>
-        <p>TÉCNICAS DE DESENVOLVIMENTO DE ALGORITMOS</p>
-        <p>MODELAGEM DE DADOS (EAD)</p>
-        <p>QUALIDADE DE SOFTWARE (EAD)</p>
-        <p>MATEMÁTICA APLICADA (EAD)</p>
-        <p>ITINERÁRIO EXTENSIONISTA I (EAD)</p>
-    </section>
-
-    <section id="terceiro-semestre"> <!-- Seção sobre o 3º semestre, identificada pelo id correspondente -->
-        <h2>3º Semestre (2024)</h2>
-        <p>BANCO DE DADOS</p>
-        <p>TÓPICOS AVANÇADOS EM SISTEMAS DE INFORMAÇÃO I</p>
-        <p>ESTRUTURA DE DADOS I</p>
-        <p>ANÁLISE E PROJETO DE SISTEMAS I</p>
-        <p>PROGRAMAÇÃO ORIENTADA A OBJETOS</p>
-        <p>COMPUTAÇÃO EM NUVEM (EAD)</p>
-        <p>SISTEMAS CLIENTE/SERVIDOR (EAD)</p>
-        <p>ITINERÁRIO EXTENSIONISTA II</p>
-    </section>
-
-    <section id="quarto-semestre"> <!-- Seção sobre o 4º semestre, identificada pelo id correspondente -->
-        <h2>4º Semestre (2024)</h2>
-        <p>REDES DE COMPUTADORES</p>
-        <p>ANÁLISE E PROJETO DE SISTEMAS II</p>
-        <p>LABORATÓRIO DE BANCO DE DADOS AVANÇADO</p>
-        <p>PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS</p>
-        <p>TÓPICOS AVANÇADOS EM SISTEMAS DE INFORMAÇÃO II</p>
-        <p>COMPUTAÇÃO PARALELA E DISTRIBUÍDA (EAD)</p>
-        <p>BIG DATA (EAD)</p>
-        <p>LÍNGUA BRASILEIRA DE SINAIS (EAD)</p>
-        <p>ANÁLISE DE PROJETOS DE INVESTIMENTOS (EAD)</p>
-        <p>ITINERÁRIO EXTENSIONISTA III</p>
-    </section>
-
-    <footer>
+    <footer> <!-- Rodapé da página -->
         <p>&copy; 2025 - Matheus Gonçalves Gomes</p>
         <p>
             <a href="https://www.linkedin.com/in/matheusggomes/" target="_blank">LinkedIn</a> |
@@ -96,8 +94,6 @@
         </p>
     </footer>
 
-    <script src="script.js"></script>
-
+    <script src="script.js"></script> <!-- Importa o arquivo de script externo -->
 </body>
-
 </html>
