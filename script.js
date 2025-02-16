@@ -1,4 +1,4 @@
-function toggleMenu() {
+function botaoMenu() {
     console.log("Clique no menu detectado"); // para verificar no console
     var menuLinks = document.querySelector(".menu-links");
     menuLinks.classList.toggle("active");
