@@ -43,7 +43,7 @@ section {
 }
 
 #home {
-    background-image: url('img/fundo-home.jpg');
+    background-image: url('imagens/fundo-home.jpg');
     background-size: cover;
 }
 
@@ -54,6 +54,7 @@ section {
 section a{
     text-decoration: none;
     color: black;
+    padding: 15px;
 }
 
 section a:hover{
