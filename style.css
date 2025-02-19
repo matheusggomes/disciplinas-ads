@@ -150,37 +150,26 @@ p, a, h1, h2, h3, h4, h5, h6 {
 /*css disciplinas*/
 .conteudo-disciplina {
     margin-top: 50px;
-    padding-top: 20px;
+    padding: 20px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .conteudo-disciplina h1 {
     text-align: center;
     font-size: 18pt;
-}
-
-.conteudo-disciplina h2 {
-    text-align: justify;
-    font-size: 16pt;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.conteudo-disciplina p {
-    text-align: justify;
-    font-size: 14pt;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 20px;
 }
 
-.ementa {
-    border: 2px solid black; /* 2px de espessura, linha sólida, cor preta */
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+.topico{
+    font-size: 14pt;
+    padding-bottom: 20px;
 }
 
-.conteudo{
-    margin: 30px;
+.topico h2 {
+    font-size: 16pt;
+}
+
+li{
+    padding: 10px;
 }
