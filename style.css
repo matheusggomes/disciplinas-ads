@@ -29,8 +29,23 @@ nav a:hover {
     color: black;
 }
 
+/* Nome do menu fixo no canto esquerdo */
+.nome-menu {
+    position: absolute;
+    left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    /*font-style: italic;*/
+    cursor: pointer;
+}
+
+.nome-menu a{
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
 section {
-    padding-left: 20px; /* Adiciona um pequeno espaçamento lateral */
+    padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
     min-height: 100vh; /* Cada seção ocupa 100% da altura da tela */
@@ -64,12 +79,12 @@ section a:hover{
 }
 
 footer {
-    background-color: #333; /* Fundo escuro */
-    color: white; /* Texto claro */
-    text-align: center; /* Centraliza o texto */
-    padding: 20px; /* Espaçamento interno */
-    margin-top: 50px; /* Espaço acima do rodapé */
-    font-size: 14px; /* Tamanho da fonte */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
 }
 
 footer a {
@@ -96,6 +111,11 @@ footer a:hover {
     cursor: pointer;
     position: absolute;
     right: 20px;
+}
+
+/* Oculta o cursor piscando em textos */
+p, a, h1, h2, h3, h4, h5, h6 {
+    caret-color: transparent;
 }
 
 /* Media query para telas menores */
@@ -128,27 +148,7 @@ footer a:hover {
     }
 }
 
-/* Nome do menu fixo no canto esquerdo */
-.nome-menu {
-    position: absolute;
-    left: 20px;
-    font-size: 17px;
-    font-weight: bold;
-    /*font-style: italic;*/
-    cursor: pointer;
-}
-
-.nome-menu a{
-    color: #d4d4d4;
-    text-decoration: none;
-}
-
-p, a, h1, h2, h3, h4, h5, h6 {
-    caret-color: transparent;
-}
-
-
-/*css disciplinas*/
+/* css disciplinas */
 .conteudo-disciplina {
     margin-top: 50px;
     padding: 20px;
