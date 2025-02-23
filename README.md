@@ -1,6 +1,6 @@
-# Disciplinas Cursadas em Análise e Desenvolvimento de Sistemas
+# 📚 Disciplinas Cursadas em Análise e Desenvolvimento de Sistemas
 
-Este repositório contém o site que apresenta as disciplinas que cursei durante a graduação em **Análise e Desenvolvimento de Sistemas**.
+Este repositório contém o site que apresenta as disciplinas que cursei durante minha graduação em **Análise e Desenvolvimento de Sistemas**.
 
 ## 🌐 Acesse o Site  
 O projeto está disponível no GitHub Pages:
@@ -12,6 +12,3 @@ O projeto está disponível no GitHub Pages:
 - **CSS3**: Para estilização e layout responsivo.
 - **JavaScript**: Para adicionar interatividade do menu de navegação.
 - **GitHub Pages**: Para hospedar e compartilhar o projeto.
-
-## 🚧 Em Desenvolvimento  
-Este projeto está em desenvolvimento.
